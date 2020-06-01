@@ -1,3 +1,4 @@
+//WIP for winmin-viewer multimonitor support
 #include <gtk/gtk.h>
 #include <spice-client-gtk-3.0/spice-client-gtk.h>
 #include <stdio.h>

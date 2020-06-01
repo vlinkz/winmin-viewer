@@ -1,4 +1,4 @@
-project('winmin', 'c')
+project('winmin-viewer', 'c')
 
 deps = [
   dependency('gio-2.0', version: '>= 2.50'),
@@ -6,6 +6,6 @@ deps = [
   dependency('spice-client-gtk-3.0'),
 ]
 
-executable('winmin', 'winmin.c',
+executable('winmin-viewer', 'winmin-viewer.c',
   dependencies: deps,
 )

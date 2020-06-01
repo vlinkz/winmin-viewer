@@ -8,4 +8,5 @@ deps = [
 
 executable('winmin-viewer', 'winmin-viewer.c',
   dependencies: deps,
+  install: true, install_dir : '/usr/bin',
 )

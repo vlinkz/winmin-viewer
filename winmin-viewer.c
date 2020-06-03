@@ -59,11 +59,6 @@ activate (GtkApplication* app,
   g_object_set(session,"uri",sock);
      //"spice+unix:///var/lib/libvirt/qemu/domain-1-winmin-base/spice.sock");
 
-  printf("test\n");
-  char** test;
-  g_object_get(session,"uri",&test);
-  printf("test: %s\n",test);
-
   mainchannel =  spice_channel_new(session,1,id); // SPICE_CHANNEL(session);
   
   /*if (SPICE_IS_CHANNEL(mainchannel)) {
